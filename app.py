@@ -5,8 +5,19 @@ from nltk.corpus import stopwords
 import nltk
 from nltk.stem.porter import PorterStemmer
 ps = PorterStemmer()
+from PIL import Image
 
 
+
+st.set_page_config(page_title="Spam Detection app")
+
+
+# Displaying images using streamlit
+image = Image.open('spam.png')
+
+st.image(image, width=300)
+
+# function defining
 def transform_text(text):
     #converting to lower case
     text = text.lower()
@@ -39,9 +50,9 @@ def transform_text(text):
 tfidf = pickle.load(open('vectorizer.pkl','rb'))
 model = pickle.load(open('model.pkl','rb'))
 
-st.title("Email/SMS Spam Classifier")
+# st.title("Email/SMS Spam Classifier")
 
-input_sms = st.text_area("Enter the message")
+input_sms = st.text_area("Spam Classifier", max_chars=256)
 
 if st.button('Predict'):
 
@@ -53,6 +64,7 @@ if st.button('Predict'):
     result = model.predict(vector_input)[0]
     # 4. Display
     if result == 1:
-        st.header("Spam")
+        st.header("Spam")        
     else:
         st.header("Not Spam")
+        
