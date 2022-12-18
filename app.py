@@ -13,9 +13,9 @@ st.set_page_config(page_title="Spam Detection app")
 
 
 # Displaying images using streamlit
-image = Image.open('spam.png')
+image = Image.open('spam.jpeg')
 
-st.image(image, width=300)
+st.image(image, width=500)
 
 # function defining
 def transform_text(text):
