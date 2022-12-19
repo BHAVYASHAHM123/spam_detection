@@ -3,6 +3,10 @@
 ![](spam1.jpeg)
 
 
+
+https://user-images.githubusercontent.com/43700766/208396782-0732a062-2f54-47b7-acd4-7de977c2c88d.mp4
+
+
 ## Problem Statement
 Email spam has become a serious issue in recent years, and as the number of internet
 users grows, so does the number of spam emails. They are being used for unlawful and
