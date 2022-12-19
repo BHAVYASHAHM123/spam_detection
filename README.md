@@ -1,8 +1,6 @@
 # spam_detection
 
-![](spam1.jpeg)
-
-
+## Demo
 
 https://user-images.githubusercontent.com/43700766/208396782-0732a062-2f54-47b7-acd4-7de977c2c88d.mp4
 
