@@ -1,7 +1,6 @@
 # spam_detection
 
-
-![](https://github.com/BHAVYASHAHM123/spam_detection/blob/master/spam_classification.mp4)
+![](spam1.jpeg)
 
 
 ## Problem Statement
